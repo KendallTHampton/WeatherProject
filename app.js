@@ -14,6 +14,8 @@ app.get("/", function (req, res)
 {
   res.sendFile(__dirname + "/index.html")
 
+
+
 });
 
 
@@ -27,6 +29,8 @@ app.post("/", function (req, res)
   const apiKey = "3cdc16d575bb7a9d6628aa86c6219fd7"
   const unit = "imperial"
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&appid=" + apiKey + "&units=" + unit;
+
+
 
   // HTTPS GET API INFORMATION
 
